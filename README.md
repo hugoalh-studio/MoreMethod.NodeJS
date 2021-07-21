@@ -40,6 +40,10 @@ npm install @hugoalh/more-method
 
 ### API (Excerpt)
 
+> | **Legend** | **Description** |
+> |:-:|:--|
+> | 🧪 | **Experimental:** This API is experimental. |
+
 - `changeCase(item, option?)`
 - `concatenate(...items)`
 - `divide(item, piece, option?)`
@@ -57,6 +61,7 @@ npm install @hugoalh/more-method
 - `mathematics.median(...items)`
 - `mathematics.permutation(n, k)`
 - `mathematics.root(base, root)`
+- `parallelProcess(...items)` 🧪
 - `removeANSIEscapeCode(item)`
 - `removeDuplicate(item)`
 - `reverseIndex(item)`
