@@ -46,6 +46,17 @@ npm install @hugoalh/more-method
 - `ensurePrefix(item, prefix)`
 - `ensureSuffix(item, suffix)`
 - `flatten(item, option?)`
+- `mathematics.combination(n, k)`
+- `mathematics.cumulativeCombination(n)`
+- `mathematics.cumulativePermutation(n)`
+- `mathematics.factorial(n)`
+- `mathematics.greatestCommonDivisor(...items)`
+- `mathematics.hypotenuse(item1, item2, antiHypotenuse?)`
+- `mathematics.leastCommonMultiple(...items)`
+- `mathematics.mean(...items)`
+- `mathematics.median(...items)`
+- `mathematics.permutation(n, k)`
+- `mathematics.root(base, root)`
 - `removeANSIEscapeCode(item)`
 - `removeDuplicate(item)`
 - `reverseIndex(item)`
