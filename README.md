@@ -46,16 +46,20 @@ npm install @hugoalh/more-method
 
 - `changeCase(item, option?)`
 - `concatenate(...items)`
+- `cumulativeFlatten(item, option?)`
+- `depth(item)`
 - `divide(item, piece, option?)`
 - `ensurePrefix(item, prefix)`
 - `ensureSuffix(item, suffix)`
+- `escapeRegularExpressionSpecialCharacter(item)`
 - `flatten(item, option?)`
+- `length(item, option?)`
 - `mathematics.combination(n, k)`
 - `mathematics.cumulativeCombination(n)`
 - `mathematics.cumulativePermutation(n)`
 - `mathematics.factorial(n)`
 - `mathematics.greatestCommonDivisor(...items)`
-- `mathematics.hypotenuse(item1, item2, antiHypotenuse?)`
+- `mathematics.hypotenuse(item1, item2, invertHypotenuse?)`
 - `mathematics.leastCommonMultiple(...items)`
 - `mathematics.mean(...items)`
 - `mathematics.median(...items)`
