@@ -46,7 +46,6 @@ npm install @hugoalh/more-method
 
 - `changeCase(item, option?)`
 - `concatenate(...items)`
-- `cumulativeFlatten(item, option?)`
 - `depth(item)`
 - `divide(item, piece, option?)`
 - `ensurePrefix(item, prefix)`
