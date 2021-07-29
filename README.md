@@ -68,6 +68,7 @@ npm install @hugoalh/more-method
 - `removeDuplicate(item)`
 - `reverseIndex(item)`
 - `split(item)`
+- `stringParse(item)`
 - `toObject(item)`
 
 ### Example (Excerpt)
