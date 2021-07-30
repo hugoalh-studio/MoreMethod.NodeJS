@@ -52,6 +52,8 @@ npm install @hugoalh/more-method
 - `ensureSuffix(item, suffix)`
 - `escapeRegularExpressionSpecialCharacter(item)`
 - `flatten(item, option?)`
+- `flattenArray(item, option?)`
+- `flattenJSON(item, option?)`
 - `length(item, option?)`
 - `mathematics.combination(n, k)`
 - `mathematics.cumulativeCombination(n)`
@@ -66,10 +68,11 @@ npm install @hugoalh/more-method
 - `parallelProcess(...items)` 🧪
 - `removeANSIEscapeCode(item)`
 - `removeDuplicate(item)`
+- `new Replaceholder(list, option?).replace(item)`
+- `replaceholder(list, item, option?)`
 - `reverseIndex(item)`
 - `split(item)`
 - `stringParse(item)`
-- `toObject(item)`
 
 ### Example (Excerpt)
 
