@@ -65,6 +65,7 @@ npm install @hugoalh/more-method
 - `mathematics.mean(...items)`
 - `mathematics.median(...items)`
 - `mathematics.permutation(n, k)`
+- `nestify(item)`
 - `parallelProcess(...items)` 🧪
 - `removeANSIEscapeCode(item)`
 - `removeDuplicate(item)`
