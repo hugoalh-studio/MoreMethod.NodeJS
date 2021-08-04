@@ -24,7 +24,7 @@
 ### 🌟 Feature
 
 - Provide missed method(s).
-- Native support for CommonJS and ECMAScript.
+- Native support for CommonJS and ModuleJS.
 
 ## 📄 Documentation
 
