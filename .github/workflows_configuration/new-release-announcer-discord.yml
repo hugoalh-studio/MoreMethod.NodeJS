@@ -28,5 +28,5 @@ embeds:
         value: "https://www.npmjs.com/package/@hugoalh/more-method"
         inline: false
       - name: "Repository"
-        value: "https://github.com/hugoalh-studio/more-method-nodejs"
+        value: "%payload.repository.html_url%"
         inline: false

@@ -1,6 +1,6 @@
 {
 	"name": "@hugoalh/more-method",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"description": "A module to provide more method.",
 	"keywords": [
 		"method",
@@ -22,12 +22,11 @@
 		"url": "git+https://github.com/hugoalh-studio/more-method-nodejs.git"
 	},
 	"dependencies": {
-		"@hugoalh/advanced-determine": "^6.0.0",
+		"@hugoalh/advanced-determine": "^6.0.2",
 		"ansi-regex": "^6.0.0",
 		"char-regex": "^2.0.0",
 		"emoji-regex": "^9.2.2",
-		"is-fullwidth-code-point": "^4.0.0",
-		"split-string": "^6.1.0"
+		"is-fullwidth-code-point": "^4.0.0"
 	},
 	"engines": {
 		"node": ">= 14.15.0",
