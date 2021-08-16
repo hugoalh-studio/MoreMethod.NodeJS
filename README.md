@@ -63,6 +63,7 @@ npm install @hugoalh/more-method
 - `mathematics.permutation(n, k)`
 - `nestify(item)`
 - `parallelProcess(...items)`
+- `randomIndex(item)`
 - `removeANSIEscapeCode(item)`
 - `removeDuplicate(item)`
 - `new Replaceholder(list, option?).replace(item)`
