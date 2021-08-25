@@ -22,7 +22,7 @@
 		"url": "git+https://github.com/hugoalh-studio/more-method-nodejs.git"
 	},
 	"dependencies": {
-		"@hugoalh/advanced-determine": "^6.0.7",
+		"@hugoalh/advanced-determine": "^6.0.8",
 		"ansi-regex": "^6.0.0",
 		"char-regex": "^2.0.0",
 		"emoji-regex": "^9.2.2",
