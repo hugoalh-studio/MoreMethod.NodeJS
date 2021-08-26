@@ -70,6 +70,7 @@ npm install @hugoalh/more-method
 - `new Replaceholder(list, option?).replace(item)`
 - `replaceholder(list, item, option?)`
 - `reverseIndex(item)`
+- `stringOverflow(item, maximumLength, option?)`
 - `stringParse(item)`
 
 ### Example (Excerpt)
