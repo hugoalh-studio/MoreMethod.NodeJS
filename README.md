@@ -44,8 +44,8 @@ npm install @hugoalh/more-method
 - `concatenate(...items)`
 - `depth(item)`
 - `divide(item, piece, option?)`
-- `ensurePrefix(item, prefix)`
-- `ensureSuffix(item, suffix)`
+- `ensureEndWith(item, endWith)`
+- `ensureStartWith(item, startWith)`
 - `escapeRegularExpressionSpecialCharacter(item)`
 - `flatten(item, option?)`
 - `flattenArray(item, option?)`
