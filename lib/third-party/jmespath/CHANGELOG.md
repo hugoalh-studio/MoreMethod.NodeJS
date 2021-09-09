@@ -48,6 +48,7 @@ This modification changelog is provided specially due to the requirement from Ap
   - `isAlphaNum`
   - `isFalse`
   - `isNum`
+- Reduce file size from 57.1 KB to 45.11 KB
 - Remove `else { return XXXX }`
 - Remove polyfill functions:
   - `isArray`
@@ -61,3 +62,5 @@ This modification changelog is provided specially due to the requirement from Ap
 - [ ] Convert `this._XXXX` to private
 - [ ] Convert `XXXX++` which outside `for-loop` to `XXXX += 1`
 - [ ] Format as CommonJS and ModuleJS
+- [ ] Merge to Replaceholder
+- [ ] Resolve the interpreter and runtime depend on each other to avoid the cyclic dependency
