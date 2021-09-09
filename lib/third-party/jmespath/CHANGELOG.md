@@ -9,12 +9,12 @@ This modification changelog is provided specially due to the requirement from Ap
 > For planned change(s), it is marked as task list:
 > - [ ] Example
 
-- Convert to modern format
-  - Convert single quote string `'XXXX'` to double quote string `"XXXX"`
-  - Convert string operate (`"XX" + YYYY + "XX"`) to template literals (template strings) (<code>\`XX${YYYY}XX\`</code>)
-  - Convert `new Error("TypeError: XXXX")` to `new TypeError("XXXX")`
-- Convert UMD to NodeJS export
-- Convert `XXXX.prototype.XXXX` to type of class
+- Convert function prototype (`XXXX.prototype.XXXX`) to type of class
+- Convert `if (XXXX) { return XXXX } else { return XXXX }` to `if (XXXX) { return XXXX } return XXXX`
+- Convert `new Error("TypeError: XXXX")` to `new TypeError("XXXX")`
+- Convert single quote string (`'XXXX'`) to double quote string (`"XXXX"`)
+- Convert string operates (`"XX" + YYYY + "XX"`) to template literals (template strings) (<code>\`XX${YYYY}XX\`</code>)
+- Convert UMD export to NodeJS export
   - Convert class method without usage of `this` as function (maybe also optimize):
     - `_functionAbs`
     - `_functionAvg`
@@ -49,8 +49,7 @@ This modification changelog is provided specially due to the requirement from Ap
   - `isAlphaNum`
   - `isFalse`
   - `isNum`
-- Reduce file size from 57.1 KB to 45.11 KB
-- Remove `else { return XXXX }`
+- Reduce file size
 - Remove polyfill functions:
   - `isArray`
   - `objValues`
@@ -60,12 +59,13 @@ This modification changelog is provided specially due to the requirement from Ap
 - Replace `var` with `const`/`let`
   - Fix `switch case XXXX: { let }` cause error
 - [ ] Change to return `undefined` instead of `null` when nothing is match
-- [ ] Convert `this._XXXX` to private
+- [ ] Convert class property `this._XXXX` (public) to `this.#XXXX` (private)
 - [ ] Convert `XXXX++` which outside `for-loop` to `XXXX += 1`
 - [ ] Format as CommonJS and ModuleJS
 - [ ] Merge to Replaceholder
-- [ ] Resolve the interpreter and runtime depend on each other to avoid the cyclic dependency
-- [ ] Use @hugoalh/advanced-determine on some situration
+- [ ] Resolve the interpreter (`TreeInterpreter`) and runtime (`Runtime`) depend on each other to avoid the cyclic dependency
+- [ ] Use @hugoalh/advanced-determine to replace some situration(s)
+- [ ] ? Convert class `Parser` to function `parse`
 - [ ] ? Merge fork https://github.com/jmespath/jmespath.js/compare/master...alexander-gush:master
 - [ ] ? Merge fork https://github.com/jmespath/jmespath.js/compare/master...daz-is:master
 - [ ] ? Merge fork https://github.com/jmespath/jmespath.js/compare/master...MarkSwanson:master
