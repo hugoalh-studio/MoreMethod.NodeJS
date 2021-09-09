@@ -43,6 +43,7 @@ This modification changelog is provided specially due to the requirement from Ap
     - `errorToken`
     - `getTypeName`
     - `looksLikeJSON`
+- Fix typo "Sytanx"
 - Optimize functions:
   - `isAlpha`
   - `isAlphaNum`
@@ -64,3 +65,9 @@ This modification changelog is provided specially due to the requirement from Ap
 - [ ] Format as CommonJS and ModuleJS
 - [ ] Merge to Replaceholder
 - [ ] Resolve the interpreter and runtime depend on each other to avoid the cyclic dependency
+- [ ] Use @hugoalh/advanced-determine on some situration
+- [ ] ? Merge fork https://github.com/jmespath/jmespath.js/compare/master...alexander-gush:master
+- [ ] ? Merge fork https://github.com/jmespath/jmespath.js/compare/master...daz-is:master
+- [ ] ? Merge fork https://github.com/jmespath/jmespath.js/compare/master...MarkSwanson:master
+- [ ] ? Merge fork https://github.com/jmespath/jmespath.js/compare/master...Svjard:master
+- [ ] ? Merge fork https://github.com/jmespath/jmespath.js/compare/master...TraxTechnologies:master
