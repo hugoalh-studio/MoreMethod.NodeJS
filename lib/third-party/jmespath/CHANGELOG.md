@@ -45,6 +45,7 @@ This modification changelog is provided specially due to the requirement from Ap
 - Convert string operates (`"XX" + YYYY + "XX"`) to template literals (template strings) (<code>\`XX${YYYY}XX\`</code>)
 - Convert UMD export to NodeJS export
 - Fix typo "Sytanx"
+- Format as CommonJS and ModuleJS
 - Include fork works:
   - https://github.com/alexander-gush/jmespath.js
   - https://github.com/daz-is/jmespath.js
@@ -70,6 +71,5 @@ This modification changelog is provided specially due to the requirement from Ap
 - [ ] Change to return `undefined` instead of `null` when nothing is match
 - [ ] Convert class property `this._XXXX` (public) to `this.#XXXX` (private)
 - [ ] Convert `XXXX++` which outside `for-loop` to `XXXX += 1`
-- [ ] Format as CommonJS and ModuleJS
 - [ ] Merge to Replaceholder
 - [ ] Replace function(s) to @hugoalh/advanced-determine function(s) to improve efficiency and performance
