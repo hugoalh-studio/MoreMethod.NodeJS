@@ -10,6 +10,7 @@ This modification changelog is provided specially due to the requirement from Ap
 > - [ ] Example
 
 - Add access to root value via `$` (from fork @daz-is)
+- Change to return `undefined` instead of `null` when nothing is match
 - Convert class method without usage of `this` to type of function (maybe also optimize and/or rename):
   - `_functionAbs`
   - `_functionAvg`
@@ -38,12 +39,14 @@ This modification changelog is provided specially due to the requirement from Ap
   - `errorToken`
   - `getTypeName`
   - `looksLikeJSON`
+- Convert custom error (prototype) to type of class extend
 - Convert function prototype (`XXXX.prototype.XXXX`) to type of class
-- Convert `if (XXXX) { return XXXX } else { return XXXX }` to `if (XXXX) { return XXXX } return XXXX`
+- Convert `if (XXXX) { return XXXX } else if { return XXXX }` and `if (XXXX) { return XXXX } else { return XXXX }` to `if (XXXX) { return XXXX } return XXXX`
 - Convert `new Error("TypeError: XXXX")` to `new TypeError("XXXX")`
 - Convert single quote string (`'XXXX'`) to double quote string (`"XXXX"`)
 - Convert string operates (`"XX" + YYYY + "XX"`) to template literals (template strings) (<code>\`XX${YYYY}XX\`</code>)
 - Convert UMD export to NodeJS export
+- Convert `XXXX++` which outside `for-loop` to `XXXX += 1`
 - Fix typo "Sytanx"
 - Format as CommonJS and ModuleJS
 - Include fork works:
@@ -64,12 +67,11 @@ This modification changelog is provided specially due to the requirement from Ap
   - `compile`
   - `merge`
   - `tokenize`
+- Rename all namespace which start with `_` to `$`
 - Rename function `strictDeepEqual` to `areEqual`
 - Resolve class `Runtime` and `TreeInterpreter` no longer depend on each other to avoid the cyclic dependency
 - Replace `var` with `const`/`let`
   - Fix `switch (XXXX) { case XXXX: let XXXX }` cause error
-- [ ] Change to return `undefined` instead of `null` when nothing is match
 - [ ] Convert class property `this._XXXX` (public) to `this.#XXXX` (private)
-- [ ] Convert `XXXX++` which outside `for-loop` to `XXXX += 1`
 - [ ] Merge to Replaceholder
 - [ ] Replace function(s) to @hugoalh/advanced-determine function(s) to improve efficiency and performance
