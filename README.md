@@ -27,11 +27,13 @@ A NodeJS module to provide more method.
 - Provide missed method(s).
 - Native support for CommonJS and ModuleJS.
 
-## 📄 Documentation
+## 📚 Documentation
 
 *For the official documentation, please visit [GitHub Repository Wiki](https://github.com/hugoalh-studio/more-method-nodejs/wiki).*
 
 ### Getting Started (Excerpt)
+
+#### Install
 
 NodeJS (>= v14.15.0) + NPM (>= v6.14.8):
 
@@ -39,7 +41,25 @@ NodeJS (>= v14.15.0) + NPM (>= v6.14.8):
 npm install @hugoalh/more-method
 ```
 
+#### Use In CommonJS
+
+```js
+const moreMethod = require("@hugoalh/more-method");
+```
+
+#### Use In ModuleJS
+
+```js
+import * as moreMethod from "@hugoalh/more-method";
+```
+
 ### API (Excerpt)
+
+#### Class
+
+- `new Replaceholder(list, option?).replace(item)`
+
+#### Function
 
 - `changeCase(item, option?)`
 - `concatenate(...items)`
@@ -67,7 +87,6 @@ npm install @hugoalh/more-method
 - `randomIndex(item)`
 - `removeANSIEscapeCode(item)`
 - `removeDuplicate(item)`
-- `new Replaceholder(list, option?).replace(item)`
 - `replaceholder(list, item, option?)`
 - `reverseIndex(item)`
 - `stringOverflow(item, maximumLength, option?)`
@@ -76,15 +95,24 @@ npm install @hugoalh/more-method
 ### Example (Excerpt)
 
 ```js
-const moreMethod = require("@hugoalh/more-method");
-
 let array1 = ["one", "two", "three"];
 let array2 = ["one", "two", "three"];
-console.log(Array.reverse(array1));// ["three", "two", "one"]
-console.log(array1);// ["three", "two", "one"]
-console.log(moreMethod.reverseIndex(array2));// ["three", "two", "one"]
-console.log(array2);// ["one", "two", "three"]
+console.log(Array.reverse(array1));
+// ["three", "two", "one"]
+
+console.log(array1);
+// ["three", "two", "one"]
+
+console.log(moreMethod.reverseIndex(array2));
+// ["three", "two", "one"]
+
+console.log(array2);
+// ["one", "two", "three"]
+
 let array3 = moreMethod.concatenate(array1, array2);
-console.log(array3);// ["three", "two", "one", "one", "two", "three"]
-console.log(moreMethod.removeDuplicate(array3));// ["three", "two", "one"]
+console.log(array3);
+// ["three", "two", "one", "one", "two", "three"]
+
+console.log(moreMethod.removeDuplicate(array3));
+// ["three", "two", "one"]
 ```
