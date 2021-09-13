@@ -57,7 +57,7 @@ import * as moreMethod from "@hugoalh/more-method";
 
 #### Class
 
-- `new Replaceholder(list, option?).replace(item)`
+- `Replaceholder(list, option?)`
 
 #### Function
 
