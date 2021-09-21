@@ -23,7 +23,7 @@
 	},
 	"dependencies": {
 		"@hugoalh/advanced-determine": "^6.1.2",
-		"@hugoalh/repattern": "^0.1.1",
+		"@hugoalh/repattern": "^0.2.0",
 		"ansi-regex": "^6.0.1",
 		"char-regex": "^2.0.0",
 		"emoji-regex": "^9.2.2",
