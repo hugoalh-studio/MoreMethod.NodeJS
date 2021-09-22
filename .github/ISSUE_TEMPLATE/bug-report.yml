@@ -22,7 +22,7 @@ body:
       description: "What version(s) is affected? Must be a supported version(s) listed in the \"Security Policy\" (/.github/SECURITY.md)."
       multiple: true
       options:
-        - "v0.5.2"
+        - "v0.5.1"
     validations:
       required: false
   - type: "textarea"
